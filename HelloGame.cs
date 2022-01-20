@@ -63,7 +63,7 @@ namespace HelloGame
 
             if (ballPosition.Y < GraphicsDevice.Viewport.Y || ballPosition.Y > GraphicsDevice.Viewport.Height - 64)
             {
-                ballVelocity.X *= -1;
+                ballVelocity.Y *= -1;
             }
 
             base.Update(gameTime);
